@@ -30,7 +30,7 @@ function Projects() {
               isBlog={false}
               title="ZkBattleship Game"
               description="A Web3 version of the classic Battleships game, leveraging zero-knowledge proofs (ZKPs) for secure and private gameplay. Built with a decentralized stack including zknoid SDK, o1js, and React, this project demonstrates innovative use of zk-SNARKs to ensure fairness and privacy in online gaming. Players can enjoy a familiar game with the added benefits of blockchain technology, experiencing verifiable gameplay without compromising sensitive information."
-              ghLink="https://github.com/Shivannsh/Image-Authentication-Model-in-Rust-"
+              ghLink="https://github.com/Shivannsh/zkBattleships"
             />
           </Col>
 
@@ -40,7 +40,7 @@ function Projects() {
               isBlog={false}
               title="ZkAttestify"
               description="ZKAttestify:A project for the Ethereum Attestation Service (EAS) that enhances data privacy and authentication using zero-knowledge proofs, using RISC0 ZKVM and Bonsai, that allows users to upload private attested data in JSON format and generate verifiable proofs. These proofs can then be validated by a RISC0 Verifier Contract."
-              ghLink="https://github.com/Shivannsh/Image-Authentication-Model-in-Rust-"
+              ghLink="https://github.com/Shivannsh/ZkAttestify-RiscZero/"
             />
           </Col>
 
