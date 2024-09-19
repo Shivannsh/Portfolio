@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import merkletree from "../../Assets/Projects/merkle.png";
 import ImageAuth from "../../Assets/Projects/ImageAuth.jpeg";
 import Blockchain from "../../Assets/Projects/Blockchain.jpg";
 import literacy from "../../Assets/Projects/LiteracyApp.png";
 import raffle from "../../Assets/Projects/raffle.jpg";
 import nft from "../../Assets/Projects/nft.webp";
+import mina from "../../Assets/Projects/Cover image.jpg"
+import Zkattest from "../../Assets/Projects/ZkAttestify.jpeg"
 
 function Projects() {
   return (
@@ -22,6 +23,27 @@ function Projects() {
           web2 projects.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mina}
+              isBlog={false}
+              title="ZkBattleship Game"
+              description="A Web3 version of the classic Battleships game, leveraging zero-knowledge proofs (ZKPs) for secure and private gameplay. Built with a decentralized stack including zknoid SDK, o1js, and React, this project demonstrates innovative use of zk-SNARKs to ensure fairness and privacy in online gaming. Players can enjoy a familiar game with the added benefits of blockchain technology, experiencing verifiable gameplay without compromising sensitive information."
+              ghLink="https://github.com/Shivannsh/Image-Authentication-Model-in-Rust-"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Zkattest}
+              isBlog={false}
+              title="ZkAttestify"
+              description="ZKAttestify:A project for the Ethereum Attestation Service (EAS) that enhances data privacy and authentication using zero-knowledge proofs, using RISC0 ZKVM and Bonsai, that allows users to upload private attested data in JSON format and generate verifiable proofs. These proofs can then be validated by a RISC0 Verifier Contract."
+              ghLink="https://github.com/Shivannsh/Image-Authentication-Model-in-Rust-"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ImageAuth}
@@ -32,15 +54,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={merkletree}
-              isBlog={false}
-              title="Merkle Tree Implementation in Rust"
-              description="This project is an implementation of a Merkle tree in Rust. It also compares two merkle tree in log(n) Time ."
-              ghLink="https://github.com/Shivannsh/merkle-tree-rust"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
